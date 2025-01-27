@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFF;
+}
+
+.biggestDiv {
+    display: flex;
+}
+
+.aside {
+    min-height: 100vh;
+}
+
+.sidebar {
+    display: flex;
+    max-width: 296px;
+    flex-direction: column;
+    padding: 24px 24px 24px 24px;
+    background: #14171F;
+    min-height: 100%;
+}
+
+.sideLogoDiv {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    padding: 0px 16px 16px 16px;
+    border-bottom: 1px solid #3D414B;
+    align-items: center;
+    max-width: 248px;
+    width: 100%;
+}
+
+.sideLogoDiv p {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.sideUser {
+    display: flex;
+    padding: 12px 0px;
+    border-top: 1px solid #7D70BD;
+    border-bottom: 1px solid #7D70BD;
+    align-items: center;
+    max-width: 248px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sideColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.whiteText {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px
+}
+
+.smallGreyText {
+    color: #929699;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.arrowDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sideBarHelper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.sideSmallContainer {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.sideSmallContainer p {
+    color: #929699;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.forLogoBetween {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sideBarSettings {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0px;
+    border-top: 1px solid #3D414B;
+    border-bottom: 1px solid #3D414B;
+    gap: 20px;
+}
+
+.forLeaveSetting {
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.leaveSetting {
+    display: flex;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    max-width: 253px;
+    width: 100%;
+}
+
+.leaveSetting p {
+    color: #7B62FF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.forEnding {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.burger {
+    display: none;
+    padding: 6px;
+}
+
+.headerFirst {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerFirst p {
+    color: #2F2F2F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.headerSecond {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.secondHalfContainer {
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    background: #F7F7F7;
+}
+
+.secondHalfContainer p {
+    color: #2F2F2F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.header {
+    width: 100%;
+    height: fit-content;
+}
+
+.secondBiggestContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 24px 32px;
+    width: 100%;
+}
+
+.backgroundedDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(./images/BackgroundOne.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 16px;
+    width: 100%;
+    flex: 1;
+}
+
+.backgroundedDiv p {
+    color: #2F2F2F;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    max-width: 419px;
+    width: 100%;
+    padding: 66px 0px 66px 40px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.informContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.whiteContainer {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+}
+
+.whiteContainer p {
+    color: #2F2F2F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.blackContainer {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #3D414B;
+    background: #14171F;
+}
+
+.blackContainer p {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.personalInformation {
+    display: flex;
+    gap: 32px;
+    width: 100%;
+    /* droebiti widthi */
+}
+
+.doubleContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* droebiti widthi */
+    gap: 32px;
+}
+
+.myInformation {
+    display: flex;
+    max-width: 702px;
+    width: 100%;
+    padding: 24px 16px;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+}
+
+.firstInfoText {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.firstInfoText h1 {
+    color: #14171F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.firstInfoText p {
+    color: #666;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.infoBetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputsParent {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    width: 100%;
+}
+
+.typeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+}
+
+.typeContainer label {
+    color: #2F2F2F;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+}
+
+.emailInput {
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+    background: #E6E1FF;
+    box-shadow: 0px 4px 4px 0px rgba(123, 98, 255, 0.25);
+}
+
+.numberContainer {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.blackInput {
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #14171F;
+    max-width: 68px;
+    width: 100%;
+}
+
+.datetimeInput {
+    border: none;
+    padding: 0px;
+    background-color: #FFF;
+
+}
+
+.inputDateDiv {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    width: 100%;
+    padding: 9px 16px;
+}
+
+.saveButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submitButton {
+    padding: 10px 24px;
+    border-radius: 8px;
+    background: #7F56D9;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.doubleContainerTwo {
+    display: flex;
+    gap: 24px;
+}
+
+.personalInfoDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 16px;
+    align-items: flex-start;
+    max-width: 432px;
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+}
+
+.personalText {
+    color: #14171F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.developer {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 40px;
+    border-radius: 12px;
+    background: #F9FBFC;
+    width: 100%;
+    gap: 24px;
+}
+
+.departamentDiv {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    max-height: 76px;
+}
+
+.departamentText {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.departamentText p {
+    color: #666;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.departamentText h2 {
+    color: #14171F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
