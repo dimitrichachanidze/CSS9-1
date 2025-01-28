@@ -808,10 +808,12 @@ select {
 
     .headerSecond {
         gap: 8px;
+        flex-wrap: wrap;
     }
 
     .headerFirst {
         gap: 8px;
+        flex-wrap: wrap;
     }
 
     .secondBiggestContainer {
@@ -868,5 +870,33 @@ select {
 
     .additionalInfo {
         width: 100%;
+    }
+
+    .infoBetween {
+        flex-wrap: wrap;
+    }
+
+    .developer {
+        flex-wrap: wrap;
+    }
+
+    .firstDropdown {
+        flex-wrap: wrap;
+    }
+
+    .numberContainer {
+        flex-wrap: wrap;
+    }
+
+    .freeLancerDiv {
+        flex-wrap: wrap;
+    }
+
+    .myAvatarPhoto {
+        flex-wrap: wrap;
+    }
+
+    .additionalDiv {
+        flex-wrap: wrap;
     }
 }
